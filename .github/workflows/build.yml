@@ -35,4 +35,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=happiest-minds-task-11865hjdffdhtjr -Dsonar.projectName='happiest-minds-task' -Dsonar.host.url=http://127.0.0.1:9000 -Dsonar.login=sqa_6a6a06b09a4bc53ae4de9cf1dec3bb852f9dd340
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=happiest-minds-task-11865hjdffdhtjr -Dsonar.projectName='happiest-minds-task' -Dsonar.host.url=https://sonarcloud.io/
