@@ -21,8 +21,9 @@
 		<java.version>1.8</java.version>
 
 		<swaggerfox.version>2.6.1</swaggerfox.version>
-		<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>sqa_6a6a06b09a4bc53ae4de9cf1dec3bb852f9dd340</sonar.login>
+		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>1b8e3a5b3fa0b399535b35d7da96c18cb5bebaf2</sonar.login>
+		<sonar.organization>rajamohan37</sonar.organization>
 	</properties>
 
 	<dependencies>
